@@ -1,0 +1,49 @@
+.live-box {
+  border: 2px solid #61dafb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.live-mode-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.icon-button {
+  font-size: 1.5em;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: #282c34;
+  color: #61dafb;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.icon-button:hover {
+  background: #61dafb;
+  color: #282c34;
+}
+
+.icon-button:disabled {
+  background: #444;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.icon-button.active {
+  background: #61dafb;
+  color: #282c34;
+  border: 2px solid #282c34;
+}

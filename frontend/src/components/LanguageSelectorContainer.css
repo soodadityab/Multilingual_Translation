@@ -1,0 +1,57 @@
+.language-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Reduce top and bottom margins */
+}
+
+.language-box {
+  background-color: #282c34;
+  border: 2px solid #61dafb;
+  border-radius: 15px;
+  padding: 20px; /* Reduce padding */
+  width: 500px; /* Slightly smaller width */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adjust shadow for smaller box */
+}
+
+.language-box h2 {
+  color: #61dafb;
+  margin-bottom: 15px; /* Adjust margin */
+  font-size: 1.6em; /* Slightly reduce font size */
+}
+
+.language-selector {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px; /* Reduce gap */
+}
+
+.selector-card {
+  background: linear-gradient(135deg, #333 0%, #000 100%);
+  border-radius: 10px;
+  padding: 15px; /* Reduce padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.selector-label {
+  display: block;
+  color: #fff;
+  font-size: 1em; /* Slightly smaller font */
+  margin-bottom: 8px; /* Adjust margin */
+}
+
+.language-dropdown {
+  padding: 8px 12px; /* Reduce padding */
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  background: #fff;
+  color: #333;
+  font-size: 0.9em; /* Slightly smaller font */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.language-dropdown:hover {
+  border-color: #fff;
+}

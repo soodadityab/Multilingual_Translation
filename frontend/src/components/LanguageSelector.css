@@ -1,0 +1,37 @@
+.language-selector {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.selector-card {
+  background: #282c34; /* Dark background for contrast */
+  border: 2px solid #61dafb; /* Matching theme color */
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.selector-label {
+  color: #61dafb;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.language-dropdown {
+  width: 100%; /* Full width for dropdown */
+  padding: 12px;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  background: #fff;
+  color: #333;
+  font-size: 1em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.language-dropdown:hover {
+  border-color: #282c34;
+}
